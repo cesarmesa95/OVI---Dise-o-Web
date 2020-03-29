@@ -1,0 +1,13 @@
+body{
+    max-width: 90%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+nav{
+    text-align: center;
+}
