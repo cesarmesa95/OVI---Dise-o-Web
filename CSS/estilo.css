@@ -118,6 +118,26 @@ li a:hover{
     background: #005883;
     color: white;
 }
+
+.ContenedorContacto{
+    text-align: center;
+    margin-right: 150px;
+}
+
+.CentralContacto{                       
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.Foto{
+    width: 250px;
+    height: auto;
+}
+
+span{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20%;
+}
   
 
 
