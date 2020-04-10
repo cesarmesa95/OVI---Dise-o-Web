@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <title>OVI - Sitio Web</title>
+</head>
+<body>
+    <header>
+        <img src="IMG/Logo.PNG" alt="Logo de la Unad">
+        <h1>OVI - DISEÑOS DE SITIOS WEB</h1>
+    </header>
+    <nav>
+        <ul class="Menu">
+            <li><a href="index.html">INICIO</a></li>
+            <li class="Boton"><a href="#">LECTURAS</a>
+                <div class="Listadesplegable">
+                    <a href="git.html">GIT</a>
+                    <a href="html5.html">HTML5</a>
+                    <a href="css.html">CSS</a>
+                </div>
+            </li>
+            <li class="Boton"><a href="#">ACTIVIDADES</a>
+                <div class="Listadesplegable">
+                    <a href="actividad1.html">ACTIVIDAD 1</a>
+                    <a href="actividad2.html">ACTIVIDAD 2</a>
+                </div>
+            </li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <section class="Contenedor">
+        <section class="Central">
+            <article>
+                <h3>HTML5</h3>
+                    <p>Es la última versión de HTML, pero realmente contiene nuevos elementos, atributos y comportamientos.
+                        Contiene un conjunto más amplio de tecnologías que permite a los sitios web y a las aplicaciones 
+                        ser más diversas y de gran alcance. Permite describir con mayor precisión su contenido, además 
+                        permite comunicarse con el servidor de formas innovadora, y lo mejor es que permite a las páginas 
+                        web almacenar datos localmente en el lado del cliente y operar sin conexión de manera más eficiente. 
+                        Realmente otorga mayor optimización y un mejor uso del hardware.</p>
+                        <figure>
+                            <img src="IMG/HTML5/EstructuraBásica.png" alt="Header" class="Img_Git">
+                        </figure>
+                <h5>Estructura Básica</h5>
+                    <p>Para empezar una página en HTML5 lo primero de debemos realizar es definir el DOCTYPE y 
+                        posteriormente asignar el idioma en el que va a estar nuestra página, esto lo conseguimos con 
+                        la etiqueta HTML y el atributo Lang. De esta forma indicaremos que nuestra página está escrita 
+                        en HTML5 y en que idioma estará el contenido. <br> Luego va la etiqueta HEAD, en esta se agrega la 
+                        etiqueta meta para designar el codificado de nuestra página, la cual pondremos UTF-8 esto con el 
+                        fin de que nos acepte la "Ñ" y otros acentos del español. Dentro del HEAD también va la 
+                        etiqueta TITLE, esta designa el título que saldrá en la pestaña superior del navegador y la 
+                        etiqueta link, mediante la cual asociamos nuestros estilos creados en css a nuestro documento 
+                        HTML5.</p>
+                <figure>
+                    <img src="IMG/HTML5/Estructura.PNG" alt="Estructura Básica" class="Img_Html">
+                </figure>
+                <p>En la etiqueta BODY, en esta encontraremos la etiqueta HEADER, esta define la cabecera de nuestra 
+                    página, por lo general aquí tenemos el logo y el nombre de nuestro sitio o en su defecto un banner:
+                </p>
+                <figure>
+                    <img src="IMG/HTML5/Header.PNG" alt="Header" class="Img_Header">
+                </figure>
+                <p>A continuación del header tenemos la etiqueta NAV, la cual identifica la barra de navegación de 
+                    nuestro sitio web, esta contiene por lo general las etiquetas ul, lo y li para crear listas y así 
+                    obtener menús desplegables:</p>
+                <figure>
+                    <img src="IMG/HTML5/Nav.PNG" alt="Nav" class="Img_Header">
+                </figure>
+                <p>Luego tendríamos la etiqueta SECTION, dentro de esta podremos definir etiquetas h, p, figure. 
+                    Aunque lo ideal es definir dentro de nuestra etiqueta SECTION una etiqueta ARTICLE donde se 
+                    encontrara todo el contenido y ASIDE donde se puede colocar widget o publicidad si lo desea:</p>
+                <figure>
+                    <img src="IMG/HTML5/Section.PNG" alt="Section" class="Img_Section">
+                </figure>
+                <p>Por ultimo encontramos el FOOTER donde crearemos el pie de página de nuestro sitio web:</p> 
+                <figure>
+                    <img src="IMG/HTML5/Footer.PNG" alt="Footer" class="Img_Footer">
+                </figure>   
+            </article>
+        </section>
+        <aside>
+            <a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+    </section>
+    <footer>
+        <h4><a href="https://www.unad.edu.co/">Universidad Nacional Abierta y a Distancia - UNAD</a></h4>
+        <h4>Escuela de Ciencías Básicas, Tecnología e Ingeniería - ECBTI</h4>
+        <h4>2020 - Copyright © By Grupo 301122_35</h4>
+    </footer>
+</body>
+</html>
