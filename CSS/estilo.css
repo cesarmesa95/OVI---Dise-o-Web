@@ -55,8 +55,6 @@ a{
 li {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    font-weight: 400;
-    display: inline-block;
 }
 
 a:hover {
@@ -185,7 +183,30 @@ span{
     text-align: left;
     list-style-type: circle;
 }
-  
+
+.Contador{
+    width: 100px;
+    height: auto;
+    border: 0px solid; 
+}
+
+.CentralMultimedia{
+    display: inline-block;
+    max-width: 68%;
+}
+
+.Video{
+    width: 700px;
+    height: auto;
+}
+
+.a_multimedia{
+    color: black;
+}
+
+figcaption p{
+    text-align: center;
+}
 
 
 
